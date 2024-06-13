@@ -8,7 +8,7 @@
         h1 {
             text-align: center;
         }
-        h2 { text-align: center;}
+       a , h2 {  text-align: center; font-weight: lighter; font-size: medium;}
         td, th {
             border: 3px solid black;
           ;
@@ -29,6 +29,7 @@
     margin: 2px auto; 
             table-layout: auto;
             text-align: center;
+            
         
         }
         
@@ -42,7 +43,19 @@
  .bottom-right { position: relative;
 text-align: right;
 font-weight: bold;}
+  a {
+    color: blue;
+    text-decoration: underline ;
 
+    
+    
+}
+.discription { margin-left: 50%;
+margin-top: 30%;}
+.b { border: none ;}
+.c ,p {margin-top: 25px;
+grid-row: auto;}
+.random-text{ border: none;}
         
     </style>
    
@@ -51,45 +64,36 @@ font-weight: bold;}
 <body>
     
     <h1> Periodic table of the elements</h1>
+    
+  
+    <h2 > <a   href="# "> http://chemistry.about.com </a> <br/> &copy;  2012 Todd helmenstine <br/>About chemistry</h2>
+ 
  
 
    
     <table  width="1200">
-       
-        <tr>
+<tbody>
+   <tr>
+    <td style="border: none;" class="B"> 1A</td>
+    
+    <td style="border: none;" class="B" colspan="16"></td>
+    <td class="b">8A</td>
+   
+   </tr>
+</tbody>
+
         
-            <th  style="border: none;">1A</th> 
-            
-            
-            <header><th  style="border: none;" > 2A</th> </header> 
-            
-            <th style="border: none;">3B</th>
-            <th style="border: none;">4B</th>
-            <th style="border: none;">5B</th>
-            <th style="border: none;">6B</th>
-            <th style="border: none;">7B</th>
-            <th style="border: none;">8B</th>
-            <th style="border: none;">8B</th>
-            <th style="border: none;">8B</th>
-            <th style="border: none;">1B</th>
-            <th style="border: none;">2B</th>
-            <th style="border: none;">3A</th>
-           
-            <th style="border: none;">4A</th>
-            <th style="border: none;">5A</th>
-            <th style="border: none;">6A</th>
-            <th style="border: none;">7A</th>
-            <th style="border: none;">8A</th>
-            
-        </tr>  
-     
-   
-    </tr>
-   
             <tr> 
                
+                
             <td class="bold-text" class="element" ><span class="element-number">1</span>  <br/> H  <br/> <span class="element-radius"> 1.00794</span></td>
-            <td  style="border: none ;" class="empty" colspan="16"></td>
+            <td class="random-text"> 2A</td>
+            <td  style="border: none ;" class="empty" colspan="10"></td>
+            <td class="random-text"> 3A</td>
+            <td class="random-text"> 4A</td>
+            <td class="random-text"> 5A</td>
+            <td class="random-text"> 6A</td>
+            <td class="random-text"> 7A</td>
             
            
             <td   class="bold-text"class="element"><span class="element-number">2</span> <br/>He <br/><span class="element-radius">4.002602 </span></td>
@@ -98,10 +102,14 @@ font-weight: bold;}
     
     
             <td class="bold-text" class="element"> <span class="element-number">3</span> <br/>Li <br/><span class="element-radius">6.941 </span></td>
+            
           
              <td  class="bold-text"  class="element"> <span class="element-number">4</span> <br/>Be <br/><span class="element-radius">9.012182 </span></td>
-            <td class="bold-text" style="border: none;" class="empty" colspan="10">
-              
+            
+            <td class="bold-text" style="border: none;" class="B" colspan="10">
+               
+             
+               
             <td class="bold-text" class="element"> <span class="element-number">5</span> <br/>B <br/><span class="element-radius">10.811 </span></td>
             <td class="bold-text"class="element"> <span class="element-number">6</span> <br/>C <br/><span class="element-radius">12.0107</span></td>
             <td class="bold-text"class="element"><span class="element-number">7</span> <br/>N <br/><span class="element-radius">14.0067</td>
@@ -109,10 +117,23 @@ font-weight: bold;}
             <td class="bold-text" class="element"><span class="element-number">9</span> <br/>F <br/><span class="element-radius">18.99844032</td>
             <td class="bold-text" class="element"><span class="element-number">10</span> <br/>Ne <br/><span class="element-radius">20.1797</td>
         
-        <tr class="bold-text">
+        <tr >
             <td class="bold-text"class="element"><span class="element-number">11</span> <br/>Na<br/><span class="element-radius">22.989769 </span></td>
             <td class="bold-text"class="element"><span class="element-number">12</span> <br/>Mg <br/><span class="element-radius">24.3050</span></td>
-            <td   style="border: none;" class="empty" colspan="10"></td>
+            <td class="random-text"> 3B</td>
+            <td class="random-text">4B </td>
+            <td class="random-text"> 5B</td>
+            <td class="random-text"> 6B</td>
+            <td class="random-text"> 7B</td>
+            <td  style="border: none;" colspan="1"> > </td>
+            <td class="random-text"> 8B</td>
+            <td  style="border: none;" colspan="1"> < </td>
+            <td class="random-text"> 1B</td>
+            <td class="random-text"> 2B</td>
+            
+            
+          
+           
             <td class="bold-text"class="element"><span class="element-number">13</span> <br/>Al<br/><span class="element-radius">26.9815 </span></td>
             <td class="bold-text"class="element"><span class="element-number">14</span> <br/>Si <br/><span class="element-radius">28.855 </span></td>
             <td class="bold-text"  class="element"><span class="element-number">15</span> <br/>P <br/><span class="element-radius">30.973762</span></td>
@@ -123,6 +144,7 @@ font-weight: bold;}
         <tr class="bold-text">
             <td class="bold-text"class="element"><span class="element-number">19</span> <br/>K<br/><span class="element-radius">39.0983 </span></td>
             <td class="bold-text"class="element"><span class="element-number">20</span> <br/>Ca<br/><span class="element-radius">40.078 </span></td>
+            
             <td class="bold-text" class="element"><span class="element-number">21</span> <br/>Sc<br/><span class="element-radius">44.955912 </span></td>
             <td class="bold-text"class="element"><span class="element-number">22</span> <br/>Ti<br/><span class="element-radius">47.867 </span></td>
             <td class="bold-text"class="element"><span class="element-number">23</span> <br/>V<br/><span class="element-radius">50.9415 </span></td>
